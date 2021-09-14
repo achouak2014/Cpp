@@ -8,3 +8,4 @@ std::cin >> name ;
 std::cout << name <<"enchanté moi c'est Bob." ; 
 
 return 0 ;
+}

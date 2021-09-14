@@ -4,10 +4,16 @@ int main() {
 	int y ;
 	int i = 0 ;
 	 
-	int tab []={8,7,9,1,54,32,58,55};
-	 std::cout << "entrez une autre entier:" ;
+	int tab [8];
+	for(int i = 0 ; i<=8 ; i++){
+		tab[i]=rand()%20 ; 
+		std::cout<< tab[i] << "  ";
+
+	}
+
+	 std::cout << "\n entrez une autre entier: " ;
     std::cin >> y;
-	while( i <= 7 && tab[i] != y ){
+	while( i <= 8 && tab[i] != y ){
 		i++ ; 
 	}
 	if (i <= 7 ){

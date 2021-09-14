@@ -1,6 +1,6 @@
 #include <iostream>
 
-int fizzbuzz()
+int calc()
 {
     int x;
     std::cout << "entrez un valeur:";
@@ -15,7 +15,7 @@ int fizzbuzz()
 int main()
 {
 
-    fizzbuzz();
+    calc();
 
     return 0;
 }
