@@ -29,10 +29,17 @@ int tab[15]  ;
 	  tab[imin]=tab[i];
 	  tab[i]=tmp;
   }
-std::cout<<"VOICI LE TABLEAU TRIE : \n";
-for(i=0;i<15;i++) 
+std::cout<<"Les trois plus grand nombre : \n";
+for(i=0;i<15;i++) {
 	std::cout<< "\n" << tab[i];
+}
+	
+ std::cout<<"\n Les trois plus grand nombre : \n";
+for(int j=14;j>=12;j--) {
+	std::cout<< "\n" << tab[j];
  
+}
+	
    
 
     return 0;
